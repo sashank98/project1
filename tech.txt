@@ -1,0 +1,85 @@
+Hibernate:
+
+hibernate is a Object relational Mapping framework.It is used to connect the java files with the database using xml 
+configuration or annotations. we can do mapping in various relationships such as one to one,one-to-many and many-to-many. we use Hibernate Query Language 
+to write the qurries.Hibernate provides transparent persistence for Plain Old Java Objects.Hibernate can be used both
+in standalone Java applications and in Java EE applications using servlets, EJB session beans, and JBI service components
+
+Spring(IOC):
+One of the key components of Spring Framework is the Aspect oriented programming (AOP) framework. Aspect Oriented Programming entails breaking down program logic into distinct parts called so-called concerns. The functions that span multiple points of an application are called cross-cutting concerns and these cross-cutting concerns are conceptually separate from the application's business logic. There are various common good examples of aspects like logging, auditing, declarative transactions, security, and caching etc.
+
+The IoC container is responsible to instantiate, configure and assemble the objects. The IoC container gets informations from the XML file and works accordingly. The main tasks performed by IoC container are:
+
+to instantiate the application class
+to configure the object
+to assemble the dependencies between the objects
+There are two types of IoC containers. They are:
+BeanFactory
+ApplicationContext
+
+Log 4j:-
+log 4j is a java library specializes in logging. it is used for error monitering.
+
+WebServices:-
+-----------------
+ web service is a language independent way of communication.For example, java application can interact with Java, .Net and PHP applications.there are two types in webservices called SOAP AND RESTFUL.
+
+Restful WebServices:-
+-----------------------------
+RESTful web services are built to work best on the Web. Representational State Transfer (REST) is an architectural style that specifies constraints, such as the uniform interface, that if applied to a web service induce desirable properties, such as performance, scalability, and modifiability, that enable services to work best on the Web. In the REST architectural style, data and functionality are considered resources and are accessed using Uniform Resource Identifiers (URIs), typically links on the Web.
+
+SOAP:-
+----------------------------------------------------
+SOAP is an XML-based messaging protocol. It defines a set of rules for structuring messages that can be used for simple one-way messaging but is particularly useful for performing RPC-style (Remote Procedure Call) request-response dialogues. It is not tied to any particular transport protocol though HTTP is popular.
+
+Spring:-
+
+Spring is a lightweight framework. Spring is having loosely coupled architecture. it provides support to various frameworks such as Struts, Hibernate, EJB, JSF etc. The framework can be defined as a structure where we find solution of the various technical problems. The Spring framework have several modules such as IOC, AOP, DAO, Context, ORM, WEB MVC etc.
+the main feature of spring is dependency injection. by this everytime we dnt need to create an object.we just add dependency to the constuctor or property setter.
+Struts:
+
+The Struts  framework is used to develop MVC (Model View Controller) based web applications
+
+The Struts  provides supports to POJO based actions, Validation Support, AJAX Support, Integration support to various frameworks such as Hibernate, Spring, Tiles etc, support to various result types such as Freemarker, Velocity, JSP etc.
+
+Struts 2 provides many features. The important features of struts 2 framework are:
+Configurable MVC components
+POJO based actions
+AJAX support
+Integration support
+Various Result Types
+
+
+
+J2EE ---- Java 2 Enterprise Edition
+Modules--- Application clint, web, resourse and Enterprise java beans
+
+Application clint--- contains a Java application that connects to a J2EE server and uses its resources
+
+Application client module: Contains an application client deployment descriptor, which is an Extensible 
+Markup Language (XML) file with an .xml extension, in addition to class files, which are packed as Java Archive (JAR) files
+with .jar extensions.
+
+Enterprise JavaBeans (EJB) module: Contains an EJB deployment descriptor and class files.
+
+Web module: Contains a Web application deployment descriptor, servlet class files and Java Server Pages (JSP) files.
+
+Resource adapter module: Contains Java interfaces, classes, libraries, documentation and a resource adapter deployment 
+descriptor.
+
+
+
+Servlet technology is used to create web application. Servlet is an API that provides many interfaces and classes including documentations. when clint send a request to the server, server generates a response at runtime according to the request and  sends the response to the clint.
+
+There are many interfaces and classes in the servlet API such as Servlet, GenericServlet, HttpServlet, ServletRequest, ServletResponse etc.
+
+
+
+Aws:
+AWS (Amazon Web Service) is a cloud computing platform that enables user to access on demand computing services like database storage, virtual cloud server, etc. This course will give an in-depth knowledge on EC2 instance as well as useful strategy on how to build and modify instance for your own applications.
+
+
+
+
+AwsEc2:
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud.this webservice interface allows you to obtain and configure capacity with minimal friction. It provides you with complete control of your computing resources and lets you run on Amazon’s proven computing environment.Amazon EC2 reduces the time required to obtain and boot new server instances to minutes quickly scale capacity, both up and down. Amazon EC2 provides developers the tools to build failure resilient applications and isolate themselves from common failure scenarios.
